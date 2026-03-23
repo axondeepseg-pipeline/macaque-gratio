@@ -26,6 +26,12 @@ data/macaque/data/sample*/*_seg-*.png
 # macOS
 .DS_Store
 
+# Excel temp files
+~$*.xlsx
+
+# Logs
+*.log
+
 # Temp folders
 tmp/
 tmp_corr/

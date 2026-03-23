@@ -66,7 +66,7 @@ Based on the visual review, the following automated filters capture all exclusio
 6. `solidity < 0.75`
 7. `myelin_thickness / axon_diam > 1.0`
 
-The full exclusion database is available as [`exclusion_database.csv`](https://macaque-gratio.s3.ca-central-1.amazonaws.com/results/exclusion_database.csv).
+The full exclusion database is available as [`exclusion_database.csv`](../results/exclusion_database.csv).
 
 ## Per-sample reports
 

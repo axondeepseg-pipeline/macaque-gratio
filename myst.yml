@@ -3,6 +3,8 @@ project:
   title: Macaque Corpus Callosum G-Ratio Analysis
   authors:
     - name: Mathieu Boudreau
+  bibliography:
+    - references.bib
   toc:
     - file: index.md
     - file: ADS2026_minorQC.ipynb
