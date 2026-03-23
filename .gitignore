@@ -1,0 +1,39 @@
+# Cloned dependency (3.2 GB) — reinstall via ./install_ads
+axondeepseg/
+
+# MyST build output — regenerate via myst build
+_build/
+
+# QA closeup PNGs (~1.5 GB, ~14K images) — regenerate via run_qc.py
+results/qa_*/axon_*.png
+results/qa_*/batch_*.png
+results/qa_*/suspects_zoom.png
+results/qa_*/contact_sheet_all.png
+results/qa_*/*.html
+results/qa_*/segmentation_overlay.png
+results/qa_*/base_image.png
+results/qa_*/*.xlsx
+
+# NIfTI volumes (640 MB) — not used by book
+*.nii
+*.nii.gz
+
+# Segmentation masks & source images (174 MB) — only needed for notebook execution
+# Notebooks are committed pre-executed, so these aren't needed for the build
+data/macaque/data/sample*/*.png
+data/macaque/data/sample*/*_seg-*.png
+
+# macOS
+.DS_Store
+
+# Temp folders
+tmp/
+tmp_corr/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Git Tower
+.git/gk/

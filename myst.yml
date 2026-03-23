@@ -1,0 +1,24 @@
+version: 1
+project:
+  title: Macaque Corpus Callosum G-Ratio Analysis
+  authors:
+    - name: Mathieu Boudreau
+  toc:
+    - file: index.md
+    - file: ADS2026_minorQC.ipynb
+    - file: ADS2015_noQC.ipynb
+    - file: ADS2026_fullQC.ipynb
+    - title: Quality Control
+      children:
+        - file: qc_chapter/index.md
+        - file: qc_chapter/sample1.md
+        - file: qc_chapter/sample2.md
+        - file: qc_chapter/sample3.md
+        - file: qc_chapter/sample4.md
+        - file: qc_chapter/sample5.md
+        - file: qc_chapter/sample6.md
+        - file: qc_chapter/sample7.md
+        - file: qc_chapter/sample8.md
+  jupyter: true
+site:
+  title: Macaque Corpus Callosum G-Ratio Analysis
