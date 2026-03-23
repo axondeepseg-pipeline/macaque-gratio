@@ -19,6 +19,5 @@ project:
         - file: qc_chapter/sample6.md
         - file: qc_chapter/sample7.md
         - file: qc_chapter/sample8.md
-  jupyter: true
 site:
   title: Macaque Corpus Callosum G-Ratio Analysis
